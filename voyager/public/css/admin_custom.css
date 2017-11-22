@@ -1,0 +1,339 @@
+@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+
+body{
+    direction: rtl;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    text-align:right;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+
+.container, .container-fluid {
+    padding-right: 15px !important;
+    padding-left: 0 !important;
+}
+
+.app-container .side-body {
+    margin-right: 50px !important;
+    margin-left: 12px !important;
+}
+
+.navbar-header {
+    float: right !important;
+}
+
+.container-fluid>.navbar-header {
+    margin-left: -15px !important;
+    margin-right: -0 !important;
+}
+
+ .navbar-top {
+    padding-left: 0 !important;
+    padding-right: 60px !important;
+}
+
+.ps__scrollbar-y-rail{
+    right:0 !important;
+    left:50px !important;
+}
+.side-menu ul.nav.navbar-nav  {
+    float:right !important;
+    padding-right: 0 !important;
+}
+
+div.side-menu nav.li{
+    float:right !important;
+}
+
+.navbar-right {
+    float: left !important;
+}
+
+.navbar-nav.navbar-right {
+    top: 0;
+    left: 0 !important;
+    right: auto!important;
+}
+
+
+.nav .profile:hover{
+    width:75px;
+    float:left !important;
+}
+
+
+.site-footer-right {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+.hamburger, .hamburger:hover {
+    transition: all .5s cubic-bezier(.19, 1, .22, 1)
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li>a:hover {
+    color: #fff;
+    background: #2A363B
+}
+
+#sidebar-anchor.active, #sidebar-anchor:hover {
+    color: #76838f!important
+}
+
+.hamburger {
+    float: left;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    padding: 28px 30px 28px 20px;
+    cursor: pointer;
+    opacity: 1;
+    margin-right: 0
+}
+
+.hamburger:hover {
+    opacity: .7
+}
+
+.hamburger-inner {
+    right: 50% !important;
+    left: auto !important;
+    margin-left: auto !important;;
+    margin-right: -10px !important;;
+    transition: all .3s cubic-bezier(.19, 1, .22, 1)
+}
+
+.hamburger.is-active{
+    margin-right:75px
+}
+
+.hamburger.is-active .hamburger-inner:before {
+    -webkit-transform: translate3d(5px, 1px, 0) rotate(45deg) scaleX(.5) !important;
+    transform: translate3d(5px, 1px, 0) rotate(45deg) scaleX(.5) !important;
+}
+
+.hamburger.is-active .hamburger-inner:after {
+    -webkit-transform: translate3d(5px, -1px, 0) rotate(-45deg) scaleX(.5) !important;
+    transform: translate3d(5px, -1px, 0) rotate(-45deg) scaleX(.5) !important;
+}
+
+
+#sidebar-anchor {
+    padding-right: 0 !important;
+    padding-left: 10px;
+    float: right!important;
+}
+
+
+.flex #right{
+    border-right: 1px solid #f1f1f1;
+}
+
+
+.detail_info h4 {
+    float: right!important;
+}
+
+
+.breadcrumb>li+li::before {
+    content: '';
+    margin-right:0px !important;
+}
+
+.breadcrumb>li+li:after {
+    font-family: Voyager;
+    content: '\e039';
+    position: relative;
+    top: 1px;
+    margin-left: 3px;
+}
+
+.row>[class*=col-] {
+    margin-bottom: 25px;
+    float: right;
+}
+
+.panel-title {
+    text-align: right!important;
+}
+
+.settings .panel-actions {
+    right: auto !important;
+    left:0 !important;
+}
+
+
+code, pre{
+    direction: ltr !important;
+    text-align:left;
+    display: inline-block;
+}
+
+button.pull-right, .dd-item .pull-right{
+    float: left!important;
+}
+.dd .item_actions {
+    left: 10px;
+    right: auto !important;
+}
+
+.settings .select2 {
+    margin-left: 10px !important;
+}
+
+.dd-list .dd-list {
+    padding-left: 0 !important;
+    padding-right: 30px !important;
+}
+
+.new-settings-options label{
+    float:left !important;
+}
+
+
+.database-tables .name, .database-tables .name a, ul.radio li {
+    float: right !important;
+}
+.database-tables .name i{
+    margin-left: auto !important;
+    margin-right: 10px !important;
+}
+
+caption, th {
+    text-align: right !important;
+}
+
+table.dataTable thead th.sorting:before, table.dataTable thead th.sorting_asc:before, table.dataTable thead th.sorting_desc:before {
+    content: "\f0dc";
+    color: #ddd;
+    font-size: .8em;
+    padding-top: .12em;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    display: block;
+    font-family: FontAwesome;
+}
+
+
+table.dataTable thead th.sorting:after, table.dataTable thead th.sorting_asc:after, table.dataTable thead th.sorting_desc:after {
+    right:auto!important;
+    content: "" !important;
+}
+
+ul.checkbox label {
+    padding-right: 20px!important;
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: right!important;
+}
+
+
+element.style {
+}
+@media (min-width: 768px)
+app.css:5
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+div.dataTables_length select{
+    margin:0 10px !important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-right: .5em;
+    margin-left: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_info {
+    float: right !important;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    float: left !important;
+    text-align: left !important;
+}
+
+div.dataTables_paginate ul.pagination {
+    margin: 2px 2px !important;
+}
+
+.voyager div.dataTables_paginate li.previous a:before {
+content: "" !important;
+}
+
+div.dataTables_paginate li.previous>a {
+    padding-right: 24px;
+    padding-left: 10px !important;
+}
+
+
+.voyager div.dataTables_paginate li.previous a:after {
+    font-family: Voyager;
+    content: "\e046";
+    margin-right: -3px;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    display: block;
+}
+
+
+.voyager div.dataTables_paginate li.next a:after {
+content: "" !important;
+}
+
+
+div.dataTables_paginate li.next>a {
+    padding-left: 24px;
+    padding-right: 10px !important;
+}
+
+
+.voyager div.dataTables_paginate li.next a:before {
+    font-family: Voyager;
+    content: "\e039";
+    margin-left: -3px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    display: block;
+}
+
+
+.pagination li:first-child span, .pagination li:first-child>a {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.pagination li:last-child span, .pagination li:last-child>a {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px  !important;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+
+ .panel-actions {
+        left: 30px !important;
+        right: auto !important;
+}
+
+.page-title .btn.btn-success {
+    left: auto !important;
+    right: 15px;
+}
