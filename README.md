@@ -1,4 +1,15 @@
 # laravel-arabic-files
-Arabic Translations/Config for Laravel 📿 
+Arabic Translations/Config for Laravel 📿 🇸🇦
 
-Feel free to PR new files/changes.
+
+Included:
+
+- ✅ default templates
+- ✅ default email messages
+- ✅ default error messages
+- ✅ default validation error messages
+- ✅ Voyager langauge files
+- ✅ An implementation of multilingual timezones support
+
+
+Feel free to PR new files/changes. 😘
