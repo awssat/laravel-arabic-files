@@ -507,7 +507,7 @@ if (! function_exists('get_country')) {
 
         $countries = app()->getLocale() === 'ar' ? $countries_ar : $countries_en;
         
-        if(empty($iso_code) {
+        if(empty($iso_code)) {
           return $countries;
         }
         
