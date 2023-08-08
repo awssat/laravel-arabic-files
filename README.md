@@ -1,4 +1,7 @@
 # laravel-arabic-files
+
+> ملاحظة: اقرأ هذا الملف باللغة العربية: من هنا!
+
 Arabic Translations/Config for Laravel 📿 🇸🇦
 
 
