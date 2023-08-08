@@ -11,7 +11,7 @@ Included:
 - ✅ default email messages
 - ✅ default error messages
 - ✅ default validation error messages
-- ✅ Voyager langauge files
+- ✅ Voyager language files
 - ✅ An implementation of multilingual timezones support
 - ✅ An implementation of multilingual countries support
 
