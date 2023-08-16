@@ -1,4 +1,7 @@
 # laravel-arabic-files
+
+> ملاحظة: اقرأ هذا الملف باللغة العربية: [من هنا](README.ar.md)!
+
 Arabic Translations/Config for Laravel 📿 🇸🇦
 
 
@@ -8,7 +11,7 @@ Included:
 - ✅ default email messages
 - ✅ default error messages
 - ✅ default validation error messages
-- ✅ Voyager langauge files
+- ✅ Voyager language files
 - ✅ An implementation of multilingual timezones support
 - ✅ An implementation of multilingual countries support
 
