@@ -144,7 +144,7 @@ return [
     ],
     'starts_with' => 'حقل :attribute يجب ان يبدأ بأحد القيم التالية: :values.',
     'string' => 'يجب أن يكون حقل :attribute نصآ.',
-    'timezone' => 'يجب أن يكون :attribute نطاقًا زمنيًا صحيحًا',
+    'timezone' => 'يجب أن يكون حقل :attribute نطاقًا زمنيًا صحيحًا.',
     'unique' => 'قيمة حقل :attribute مستخدمة بالفعل.',
     'uploaded' => 'فشل في تحميل الـ :attribute.',
     'uppercase' => 'حقل :attribute يجب ان يكون باحرف كبيرة.',
